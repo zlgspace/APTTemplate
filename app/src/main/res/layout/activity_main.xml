@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <Button
+        android:id="@+id/mABtn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="SendA"
+        />
+
+    <Button
+        android:id="@+id/mBBtn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="SendB"
+        />
+
+    <Button
+        android:id="@+id/mCBtn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="单例数据设置"
+        />
+
+    <Button
+        android:id="@+id/mDBtn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="单例数据获取"
+        />
+
+</LinearLayout>
